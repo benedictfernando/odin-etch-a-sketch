@@ -1,0 +1,36 @@
+
+h1 {
+  text-align: center;
+}
+
+#clearNew {
+  display: block;
+  margin: 0 auto;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #333;
+  width: 75vh;
+  height: 75vh;
+}
+
+.flex-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item {
+  flex: 1;
+  border: 1px solid #666;
+}
